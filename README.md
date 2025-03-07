@@ -67,7 +67,7 @@ Example snippet `web.xml`:
 ...
 idp.authn.flows = External
 
-dp.authn.External.externalAuthnPath = contextRelative:Authn/External
+idp.authn.External.externalAuthnPath = contextRelative:Authn/External
 
 shibcas.casServerUrlPrefix = https://cassserver.example.edu/cas
 shibcas.casServerLoginUrl = ${shibcas.casServerUrlPrefix}/login
